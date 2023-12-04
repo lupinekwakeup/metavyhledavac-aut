@@ -1,4 +1,4 @@
-# Metavyhledavač Aut
+# Metavyhledavač aut
 
 ## Introduction
 
