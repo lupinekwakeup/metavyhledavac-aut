@@ -108,6 +108,6 @@ def scrape_sbazar_cars(search_url, search_query, threshold):
 if __name__ == "__main__":
     # Example usage with hardcoded details
     search_url = 'https://www.sbazar.cz/hledej/audi%20a6/170-osobni-auta'
-    car_listings = scrape_sbazar_cars(search_url, "Audi A6")
+    car_listings = scrape_sbazar_cars(search_url, "Audi A6", 80)
     for car in car_listings:
         print(car)
