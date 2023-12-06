@@ -83,6 +83,6 @@ def scrape_autoesa_cars(search_url, search_query, threshold):
 if __name__ == "__main__":
     # Example usage with hardcoded details
     search_url = 'https://www.autoesa.cz/hledani?q=Audi%20A6&razeni=6'
-    car_listings = scrape_autoesa_cars(search_url, "Audi A6")
+    car_listings = scrape_autoesa_cars(search_url, "Audi A6", 80)
     for car in car_listings:
         print(car)
